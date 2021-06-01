@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string-array name="lv">
+        <item>11111</item>
+        <item>11111</item>
+        <item>11111</item>
+        <item>11111</item>
+    </string-array>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/custom_dialog_layout"
+    android:background="@drawable/shapebackgroung"
+    android:layout_height="wrap_content">
+
+   <com.google.android.material.textfield.TextInputLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="40dp"
+       android:id="@+id/custom_dialog_edlayout"
+       >
+       <com.google.android.material.textfield.TextInputEditText
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:textSize="24sp"
+           android:id="@+id/custom_dialog_ed_title"
+           android:textColor="@color/black"
+           android:hint="Enter title"
+           />
+   </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/custom_dialog_edlayout2"
+        android:layout_margin="40dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter Node"
+            android:textSize="18sp"
+            android:id="@+id/custom_dialog_ed_note"
+            android:textColor="@color/black"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/custom_dialog_edlayout2"
+    android:textAllCaps="false"
+    android:background="#9ff35f"
+    android:layout_marginBottom="20dp"
+    android:id="@+id/custom_dialog_btn"
+   android:layout_gravity="center"
+    android:text="save note"
+    android:paddingEnd="20dp"
+    android:paddingStart="20dp"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:layout_marginTop="30dp"
+    android:textSize="24sp"
+    tools:ignore="InvalidId" />
+
+</LinearLayout>
